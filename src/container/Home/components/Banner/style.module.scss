@@ -2,11 +2,11 @@
   width: 1280px;
   height: 530px;
   margin: 0 auto;
-  background-image: url("./bg.jpg") ;
+  background-image: url("https://serverless-blog-static-resources.oss-ap-southeast-2.aliyuncs.com/images/bg.jpg") ;
   background-repeat: no-repeat;
   background-size: 1280px 380px;
-  border: 1px solid #ddd;
   position: relative;
+  background-color: #eee;
   .introduce {
     height: 150px;
     position: absolute;
@@ -21,11 +21,12 @@
       left: 50px;
       //background-image: url("./avatar.jpeg");
       //background-size: contain;
-      border-radius: 20px;
+      border-radius: 50%;
     }
     .title {
       line-height: 50px;
       font-size: 30px;
+      font-family: "Academy Engraved LET";
       margin-left: 280px;
       color: #333;
     }
