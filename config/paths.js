@@ -60,9 +60,9 @@ module.exports = {
   // appHtml: resolveApp('public/index.html'),
   // for MPA
   // adminHtml: resolveApp('public/admin.html'),
-  appIndexJs: resolveModule(resolveApp, 'src/index'),
+  appIndexJs: resolveModule(resolveApp, 'src/front/index'),
   // for MPA
-  adminIndexJs: resolveModule(resolveApp, 'src/admin'),
+  adminIndexJs: resolveModule(resolveApp, 'src/admin/index'),
   appPackageJson: resolveApp('package.json'),
   appSrc: resolveApp('src'),
   appTsConfig: resolveApp('tsconfig.json'),

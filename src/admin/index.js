@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import 'normalize.css'
+import '../../node_modules/normalize.css/normalize.css'
 
 ReactDOM.render(
 	<React.StrictMode>
